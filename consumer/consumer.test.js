@@ -15,13 +15,13 @@ describe("Pact with Order API", () => {
     const firstItemExpectation = {
       name: "burger",
       quantity: 2,
-      value: 5,
+      value: 20,
     };
 
     const secondItemExpectation = {
-      name: "pizza",
-      quantity: 3,
-      value: 10,
+      name: "coke",
+      quantity: 2,
+      value: 5,
     };
 
     const orderExpectation = {

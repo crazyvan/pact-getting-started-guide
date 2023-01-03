@@ -5,8 +5,8 @@
   "scripts": {
     "intro": "cat package.json | jq .scripts",
     "preintro": "pnpm install",
-    "test:consumer": "node runConsumerTest.js",
-    "test:provider": "node runProviderTest.js",
+    "test:consumer": "jest --testPathPattern=consumer",
+    "test:provider": "jest --testPathPattern=provider",
     "pact:publish": "./publish.sh"
   },
   "dependencies": {
